@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+
+</head>
+<body>
+<!-- header design -->
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    
+    <i class='bx bx-menu' id="menu-icon"></i>
+    
+    <nav class="navbar">
+        <a href="index.html#home" class="active">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+    </header>    
+    <div class="full-img" id="fullImgBox">
+        <img src="Images/image1.png" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery" id="group1">
+    <img src="group1/1.png" onclick="openFullImg(this.src)">
+    <img src="group1/2.png" onclick="openFullImg(this.src)">
+        <img src="group1/3.png" onclick="openFullImg(this.src)">
+        <a href="https://johnnyhajj.github.io/MotionCraft/" class="linkMotionCraft">Visit Website</a>
+    
+    </div>
+
+</div>
+<div class="img-gallery" id="group2">
+    <img src="group2/1.png" onclick="openFullImg(this.src)">
+    <img src="group2/2.png" onclick="openFullImg(this.src)">
+        <img src="group2/3.png" onclick="openFullImg(this.src)">
+        <img src="group2/4.png" onclick="openFullImg(this.src)">
+    <img src="group2/5.png" onclick="openFullImg(this.src)">
+        <img src="group2/6.png" onclick="openFullImg(this.src)">
+        <img src="group2/7.png" onclick="openFullImg(this.src)">
+        <img src="group2/8.png" onclick="openFullImg(this.src)">
+
+
+</div>
+
+
+</div>
+<div class="img-gallery" id="group3">
+    <img src="group3/1.png" onclick="openFullImg(this.src)">
+    <img src="group3/2.png" onclick="openFullImg(this.src)">
+    <img src="group3/3.png" onclick="openFullImg(this.src)">
+    <img src="group3/4.png" onclick="openFullImg(this.src)">
+    <img src="group3/5.png" onclick="openFullImg(this.src)">
+    <img src="group3/6.png" onclick="openFullImg(this.src)">
+    <img src="group3/7.png" onclick="openFullImg(this.src)">
+    <img src="group3/8.png" onclick="openFullImg(this.src)">
+    <img src="group3/9.png" onclick="openFullImg(this.src)">
+    <img src="group3/10.png" onclick="openFullImg(this.src)">
+
+</div>
+
+
+</div>
+<div class="img-gallery" id="group4">
+    <img src="group4/1.png" onclick="openFullImg(this.src)">
+    <img src="group4/2.png" onclick="openFullImg(this.src)">
+        <img src="group4/3.png" onclick="openFullImg(this.src)">
+</div>
+
+
+</div>
+<div class="img-gallery" id="group5">
+    <img src="group5/1.png" onclick="openFullImg(this.src)">
+    <img src="group5/2.png" onclick="openFullImg(this.src)">
+        <img src="group5/3.png" onclick="openFullImg(this.src)">
+        <img src="group5/4.png" onclick="openFullImg(this.src)">
+        <img src="group5/5.png" onclick="openFullImg(this.src)">
+
+
+</div>
+
+
+</div>
+<div class="img-gallery" id="group6">
+    <img src="group6/1.png" onclick="openFullImg(this.src)">
+    <img src="group6/2.png" onclick="openFullImg(this.src)">
+        <img src="group6/3.png" onclick="openFullImg(this.src)">
+        <img src="group6/4.png" onclick="openFullImg(this.src)">
+        <img src="group6/5.jpeg" onclick="openFullImg(this.src)">
+        <img src="group6/6.jpeg" onclick="openFullImg(this.src)">
+
+</div>
+
+
+
+</div>
+<div class="img-gallery" id="group7">
+    <img src="group7/1.png" onclick="openFullImg(this.src)">
+    <img src="group7/2.png" onclick="openFullImg(this.src)">
+    <img src="group7/3.png" onclick="openFullImg(this.src)">
+    <img src="group7/4.png" onclick="openFullImg(this.src)">
+    <img src="group7/5.png" onclick="openFullImg(this.src)">
+    <img src="group7/6.png" onclick="openFullImg(this.src)">
+    <img src="group7/7.png" onclick="openFullImg(this.src)">
+    <img src="group7/8.png" onclick="openFullImg(this.src)">
+    <img src="group7/9.png" onclick="openFullImg(this.src)">
+    <img src="group7/10.png" onclick="openFullImg(this.src)">
+    <img src="group7/11.png" onclick="openFullImg(this.src)">
+    <img src="group7/12.png" onclick="openFullImg(this.src)">
+    <img src="group7/13.png" onclick="openFullImg(this.src)">
+    <img src="group7/14.png" onclick="openFullImg(this.src)">
+    <img src="group7/15.png" onclick="openFullImg(this.src)">
+    <img src="group7/16.png" onclick="openFullImg(this.src)">
+</div>
+    
+    <script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+    
+    function openFullImg(pic){
+        fullImgBox.style.display="flex";
+        fullImg.src = pic;
+    }
+    
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
+    /**
+     * Retrieves the query parameter value from the URL.
+     * @param {string} param - The name of the query parameter to fetch.
+     * @returns {string|null} - The value of the query parameter or null if not found.
+     */
+     function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    /**
+     * Displays the selected image group based on the query parameter.
+     */
+    function displayGroup() {
+        const group = getQueryParam('group'); // Get the group from the query string
+
+        if (group) {
+            const groupDiv = document.getElementById(group); // Get the div with the specified ID
+            if (groupDiv) {
+                groupDiv.classList.add('active'); // Add the 'active' class to show it as a grid
+            } else {
+                console.error(`No group found with ID: ${group}`);
+            }
+        } else {
+            console.error('No group specified in the query parameter.');
+        }
+    }
+
+    // Run the function after the page loads
+    document.addEventListener('DOMContentLoaded', displayGroup);
+    </script>
+
+
+    
+</body>
+</html>

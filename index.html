@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+<!-- box icon -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header design -->
+<header class="header">
+<a href="#" class="logo">Portfolio</a>
+
+<i class='bx bx-menu' id="menu-icon"></i>
+
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- home section design -->
+<section class="home" id="home">
+   <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Johnny Elhajj</h1>
+      <h3>And I'm A <span class="multiple-text"></span></h3>
+      <p>With passion for UI/UX design and frontend development. I have experience in graphic design, web design, and creating branding solutions, blending creativity and technical skills to deliver impactful projects. I enjoy teamwork, take responsibility seriously, and am always eager to learn and grow. Currently, I’m enhancing my frontend skills through an internship and exploring new technologies to expand my expertise.</p>
+
+     <div class="social-media">
+        <a href=""><i class='bx bxl-instagram' ></i></a>
+        <a href="https://www.linkedin.com/in/johnny-elhajj-1034532bb/"><i class='bx bxl-linkedin-square' ></i></a>
+        <a href="mailto:johnny22hajj@gmail.com"><i class='bx bxs-envelope' ></i></a>
+        <a href="wa.me/96181007944"><i class='bx bxl-whatsapp-square' ></i></a>
+     </div>
+     <!-- <a href="CV.pdf" class="btn">Download CV</a> -->
+</div>
+
+<div class="home-img">
+    <img src="image/profile1.png" alt="profile image">
+</div>
+
+</section>
+
+<!-- designing about page -->
+ <section class="about" id="about">
+<div class="about-img">
+    <img src="image/profile2.png" alt="">
+</div>
+
+<div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Frontend Developer!</h3>
+    <p>Crafting seamless, responsive, and visually captivating web experiences is my specialty. With a strong command of HTML, CSS, JavaScript, and evolving expertise in TypeScript and SCSS, I transform creative concepts into functional, user-centric digital solutions. My design background ensures every interface is as engaging as it is efficient.</p>
+    <h3>Graphic Designer!</h3>
+    <p>Designing with purpose and passion, I specialize in creating impactful visual identities. From branding and product design to web and UI/UX projects, my journey has been driven by a commitment to blending creativity with functionality. With expertise in Adobe Illustrator, Photoshop, and a growing focus on UI/UX design, I thrive on delivering designs that resonate and leave lasting impressions.</p>
+    <h3>UI UX Designer!</h3>
+    <p>Designing intuitive and visually engaging user experiences is at the core of my UI/UX journey. Combining my graphic design expertise with a user-centered approach, I craft interfaces that are not only aesthetically pleasing but also functional and seamless. From wireframes to high-fidelity prototypes, I focus on delivering designs that enhance usability and elevate the user experience.</p>
+</div>
+
+ </section>
+
+ <!-- services section design  -->
+  <section class="services" id="services">
+<h2 class="heading">Our <span>Services</span></h2>
+
+<div class="services-container">
+    <div class="services-box">
+        <i class='bx bx-code-alt' ></i>
+        <h3>Web Development</h3>
+        <p> Web development is the process of creating and maintaining websites and web applications. It involves building the structure and functionality of a site, ensuring it is user-friendly, responsive, and performs efficiently. Services include developing interactive web pages, integrating features like forms and navigation, and ensuring cross-browser compatibility. Web development typically uses technologies such as HTML, CSS, JavaScript, and backend languages for dynamic functionality. The goal is to create a seamless and engaging experience for users.</p>
+        <!-- <a href="#" class="btn">Reach Us</a> -->
+    </div>
+
+    <div class="services-box">
+        <i class='bx bx-pen' ></i>
+        <h3>Graphic Design</h3>
+        <p>Graphic design is the art of visually communicating ideas and messages through the use of images, typography, color, and layout. It involves creating visuals for various media, such as print, digital, and advertising. Services include designing logos, branding materials, marketing collateral (brochures, flyers, posters), social media graphics, and web elements. The goal is to craft designs that are not only aesthetically pleasing but also effective in conveying the intended message and enhancing brand identity.</p>
+        <!-- <a href="#" class="btn">Reach Us</a> -->
+    </div>
+
+    <div class="services-box">
+        <i class='bx bxs-layout'></i>
+        <h3>Ui Ux Design</h3>
+        <p>UI/UX design focuses on creating user-centered digital experiences that are both functional and enjoyable. UI (User Interface) design involves designing the visual elements of an application or website, such as buttons, layouts, and navigation, to ensure they are visually appealing and intuitive. UX (User Experience) design focuses on the overall feel and usability of a product, including user research, wireframing, prototyping, and testing to ensure the product meets user needs and provides a seamless experience. The goal of UI/UX design is to enhance user satisfaction by making products easy to use, engaging, and efficient.</p>
+        <!-- <a href="#" class="btn">Reach Us</a> -->
+    </div>
+</div>
+
+  </section>
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Project</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="image/portfolio1.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>Creating Simple websites</p>
+            <a href="#" id="btn1" onclick="navigateToGallery('group1')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/portfolio2.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Motion Craft</h4>
+            <p>Social media posts, Branding, Calendar, Patient paper, Website design/development</p>
+            <a href="#" id="btn2" onclick="navigateToGallery('group2')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+
+    <div class="portfolio-box">
+        <img src="image/portfolio3.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Calendula</h4>
+            <p>Logo design, Branding , Products labels, Social Media posts</p>
+            <a href="#" id="btn3" onclick="navigateToGallery('group3')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+
+    <div class="portfolio-box">
+        <img src="image/portfolio4.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Family Way</h4>
+            <p>Printed Packaging Redesign</p>
+            <a href="#" id="btn4" onclick="navigateToGallery('group4')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/portfolio5.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Print Designs</h4>
+            <p>Creating several to print design in many formats from small ones to large format ones</p>
+            <a href="#" id="btn5" onclick="navigateToGallery('group5')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/portfolio7.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Squad Zalka</h4>
+            <p>Logo Design , Wallpaper Designs , Glass See through Designs</p>
+            <a href="#" id="btn6" onclick="navigateToGallery('group6')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/portfolio6.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Thumbnail Designs</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, delectus.</p>
+            <a href="#" id="btn7" onclick="navigateToGallery('group7')"><i class='bx bx-link-external' ></i></a>
+
+        </div>
+    </div>
+
+    
+  </div>
+  </section>
+
+  <!-- Contact section design -->
+<!-- <section class="contact" id="contact">
+<h2 class="heading">Contact <span>Me!</span></h2>
+<form id="contactForm" method="POST" action="/send-email">
+    <div class="input-box">
+        <input type="text" placeholder="Full Name" id="fullName" name="fullName" required />
+        <input type="email" placeholder="Email Address" id="email" name="email" required />
+
+    </div>
+    <div class="input-box">
+        <input type="tel" placeholder="Mobile Number" id="mobile" name="mobile" required />
+        <input type="text" placeholder="Email Subject" id="subject" name="subject" required />
+    </div>
+    <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message" class="btn">
+</form>
+
+</section> -->
+
+<!-- footer design -->
+ <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright & copy ; 2024 by Johnny Elhajj</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+ </footer>
+
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ 
+ <script src="script.js"></script>
+
+</body>
+</html>
